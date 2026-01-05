@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GetStarted">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="13dp"
+        android:text="𝒢ℯ𝓉 𝒮𝓉𝒶𝓇𝓉ℯ𝒹"
+        android:textStyle="bold"
+        android:textSize="29sp"
+        android:gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="23dp"
+        android:textSize="20sp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="We understand that seeking care can sometimes feel overwhelming, but you’ve taken the most important step towards improving your well-being by reaching out to us. At our clinic, your health and comfort are our top priorities. We are here to listen to your concerns, provide compassionate care, and guide you every step of the way" />
+
+    <Button
+        android:id="@+id/buttonfinal"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="151dp"
+        android:text="Home"
+        android:onClick="home1"/>
+
+
+
+    <TextView
+        android:id="@+id/telehealth"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="400dp"
+        android:text="𝓐𝓫𝓸𝓾𝓽 𝓓𝓸𝓬𝓽𝓸𝓻"
+        android:textColor="@color/black"
+        android:textSize="29dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="377dp"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="10dp"
+        android:paddingEnd="7dp"
+        android:text="Our team of doctors is composed of highly skilled, well-educated, and dedicated professionals who are committed to providing the highest standard of care. With years of experience in their respective fields, our doctors are not only experts in their specialties but also deeply compassionate and understanding toward their patients. "
+        android:textSize="17dp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>

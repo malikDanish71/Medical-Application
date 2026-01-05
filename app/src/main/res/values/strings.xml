@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Medical application</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="telehealth_consent">Telehealth Consent</string>
+    <string name="telehealth_icon_desc">Telehealth icon</string>
+</resources>

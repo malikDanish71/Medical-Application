@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="point5" type="id" />
+    <item name="point4" type="id" />
+    <item name="point3" type="id" />
+    <item name="point2" type="id" />
+    <item name="point1" type="id" />
+</resources>

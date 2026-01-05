@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/home1"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item android:title="How it works"
+        android:id="@+id/how"/>
+    <item android:title="Doctors"
+        android:id="@+id/dr"/>
+    <item android:title="Appointment"
+        android:id="@+id/appointment"/>
+    <item android:title="Registration"
+        android:id="@+id/reg"/>
+    <item android:title="Evaluate Consultant"
+        android:id="@+id/evaluation"/>
+     </group>
+</menu>

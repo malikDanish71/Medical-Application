@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aboutus">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="141dp"
+        android:text="     AboutUs"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine4"
+        android:layout_width="426dp"
+        android:layout_height="493dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="108dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="1)Doctors Consultancy: Connect with doctors for medical advice.\n\n
+2)Easy Appointments: Book appointments with trusted healthcare providers effortlessly.\n\n
+3)Comprehensive Services: All of staff will coperated with clients in any siuation's.\n\n
+4)Patient-Centric Care: Personalized and compassionate care tailored to your needs.\n\n
+5)Tech-Driven Solutions: Cutting-edge technology for seamless healthcare experiences.\n\n
+6)Health Empowerment: Take control of your health journey with accessible, quality care." />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginBottom="70dp"
+        android:text="Home"
+        android:onClick="home1"/>
+</RelativeLayout>

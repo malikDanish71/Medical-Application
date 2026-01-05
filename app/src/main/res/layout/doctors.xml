@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#EFEFEF"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/doctor1_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. M Ali"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor1_qualification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qualification: MD, Cardiology(UK)"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor1_experience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Experience: 15 years"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor1_specialization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Specialization: Cardiologist" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#EFEFEF"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/doctor2_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Rhan Ch"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor2_qualification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qualification: MBBS(USA), MS"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor2_experience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Experience: 10 years"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor2_specialization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Specialization: Orthopedic Surgeon" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#EFEFEF"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/doctor3_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Hamza Malik"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor3_qualification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qualification: MD, Pediatrics(Pak)"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor3_experience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Experience: 8 years"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor3_specialization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Specialization: Pediatrician" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#EFEFEF"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/doctor4_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. M Wajid Gujjar"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor4_qualification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qualification: MD(Italy), Neurology"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor4_experience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Experience: 12 years"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor4_specialization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Specialization: Neurologist" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#EFEFEF"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/doctor5_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Adeel Khan"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor5_qualification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qualification: MD, Neurology"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor5_experience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Experience: 12 years"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor5_specialization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Specialization: Neurologist" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#EFEFEF"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/doctor6_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Sania Batool"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor6_qualification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qualification: MD, Anesthesia(France)"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor6_experience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Experience: 12 years"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/doctor6_specialization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Specialization: Neurologist" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
