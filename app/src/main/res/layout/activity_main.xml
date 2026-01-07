@@ -62,7 +62,7 @@
                         android:layout_marginEnd="12dp"
                         android:layout_marginBottom="16dp"
                         android:inputType="textMultiLine"
-                        android:text="We provide you the best possible care for your Health🥰!!"
+                        android:text="WELCOME TO THE HEALTHCARE SYSTEM"
                         android:textAlignment="center"
                         android:textSize="24dp"
                         android:textStyle="italic" />
@@ -155,7 +155,7 @@
                         android:id="@+id/nameTextView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Muhammad Danish"
+                        android:text="Muhammad Jawad"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
